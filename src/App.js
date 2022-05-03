@@ -1,24 +1,13 @@
 import React from 'react'
 
-
-import { BrowserRouter, Routes, Route } from 'react-router-dom'
-
-// import components
-import PageNavbar from './components/PageNavebar'
-import PageNotFound from './components/PageNotFound'
+// Import components
 
 
 const App = () => {
 
   return (
     <>
-      <BrowserRouter>
-        <PageNavbar />
-        <Routes>
-    
-          <Route path="*" element={<PageNotFound />} />
-        </Routes>
-      </BrowserRouter>
+      <h1>Home</h1>
     </>
   )
 }
