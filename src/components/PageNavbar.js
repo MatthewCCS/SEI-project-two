@@ -13,7 +13,7 @@ const PageNavbar = () => {
 
   return (
     <header>
-      <Navbar className="bg-secondary" variant="light" expand="sm">
+      <Navbar className="shadow-sm" variant="dark" expand="sm">
         <Container>
           <Navbar.Brand as={Link} to="/"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Art_Institute_of_Chicago_logo.svg/512px-Art_Institute_of_Chicago_logo.svg.png" width="30px" alt="Art Institute of Chicago"></img></Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />

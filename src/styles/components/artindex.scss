@@ -14,7 +14,11 @@ p.card-text {
   font-size: 0.8em;
 }
 
-
+.pagination {
+  position:fixed;
+  bottom: 20px;
+  right: 20px;
+}
 // div.col {
 //   max-width: 20%;
 // }

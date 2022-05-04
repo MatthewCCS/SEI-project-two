@@ -7,7 +7,6 @@ import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 import Image from 'react-bootstrap/Image'
-import Badge from 'react-bootstrap/Badge'
 
 import Loading from '../../utilities/Loading'
 
@@ -45,26 +44,30 @@ const ArtShow = () => {
             </Col>
             <hr />
             <Col md="6">
-              <Image rounded="true" fluid="true" src={`https://www.artic.edu/iiif/2/${singleArt.image_id}/full/843,/0/default.jpg`} alt={singleArt.name} />
+              <Image rounded="false" fluid="true" src={`https://www.artic.edu/iiif/2/${singleArt.image_id}/full/843,/0/default.jpg`} alt={singleArt.name} />
             </Col>
             <Col md="6">
               {/* Artist Name */}
-              <p><strong>Artist</strong> <span>{singleArt.artist_title}</span></p>
+              <span className="title-span">Artist</span> <span className="desc">{singleArt.artist_title}</span>
               <hr />
               {/* Artist Info */}
-              <p><strong>Bio</strong><br /> <span>{singleArt.artist_display}</span></p>
+              <div className="bio-boxes">
+                <span className="title-span">Bio</span><br /> <p className="desc-bio">{singleArt.artist_display}</p>
+              </div>
               <hr />
               {/* Art Piece Info */}
-              <p><strong>Medium</strong> <span>{singleArt.medium_display}</span></p>
+              
+              <span className="title-span">Medium</span> <span className="desc">{singleArt.medium_display}</span>
+              
               <hr />
               {/* Date Completed */}
-              <p><strong>Completed</strong> <span>{singleArt.date_display}</span></p>
+              <span className="title-span">Completed</span> <span className="desc">{singleArt.date_display}</span>
               <hr />
               {/* Country of Origin */}
-              <p><strong>Country of Origin</strong> <span>{singleArt.place_of_origin}</span></p>
+              <span className="title-span">Country of Origin</span> <span className="desc">{singleArt.place_of_origin}</span>
               <hr />
               {/* Category */}
-              <p><strong>Category</strong> <span>{singleArt.department_title}</span></p>
+              <span className="title-span">Category</span> <span className="desc">{singleArt.department_title}</span>
               <hr />
               <Link to="/artworks" className="btn btn-secondary">Back to Collection</Link>
             </Col>
