@@ -44,9 +44,9 @@ const ArtShow = () => {
             </Col>
             <hr />
             <Col md="6">
-              <Image rounded="false" fluid="true" src={`https://www.artic.edu/iiif/2/${singleArt.image_id}/full/843,/0/default.jpg`} alt={singleArt.name} />
+              <Image rounded="false" fluid="true" className="mb-5" src={`https://www.artic.edu/iiif/2/${singleArt.image_id}/full/843,/0/default.jpg`} alt={singleArt.name} />
             </Col>
-            <Col md="6">
+            <Col md="6" className="shadow-sm p-3 border">
               {/* Artist Name */}
               <span className="title-span">Artist</span> <span className="desc">{singleArt.artist_title}</span>
               <hr />

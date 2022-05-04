@@ -1,24 +1,42 @@
 .art {
   a {
     text-decoration: none;
-    color: rgba(0,0,0, 0.9);
+    color: rgba(0, 0, 0, 0.9);
   }
 }
-p.card-text, div.card-title.h5 {
+
+p.card-text,
+div.card-title.h5 {
   margin: -5px 0px;
 }
+
 div.card-title.h5 {
   font-size: 0.9em;
 }
+
 p.card-text {
   font-size: 0.8em;
 }
 
 .pagination {
-  position:fixed;
+  opacity: 0.75;
+  box-shadow: 1px 2px 5px 0.1px rgba(0,0,0, 0.2);
+  position: fixed;
   bottom: 20px;
-  right: 20px;
+  left: 50px;
+
+  .page-item.active .page-link {
+    z-index: 3;
+    color: #fff;
+    background-color: rgb(183, 1, 52);
+    border-color: rgb(183, 1, 52);
+  }
+
 }
+.page-link {
+  color: rgb(183, 1, 52);
+}
+
 // div.col {
 //   max-width: 20%;
 // }

@@ -6,9 +6,9 @@ const Home = () => {
   return (
     <div className="hero text-center">
       <div className="hero-container ">
-        <h1 className="display-2">Art Institute Chigago</h1>
+        <h1 className="display-2">Art Institute Chicago</h1>
         <p className="lead">Chicago</p>
-        <Link to="/artworks" className="btn btn-warning">Collection</Link>
+        <Link to="/artworks" >Collection</Link>
       </div>
     </div>
   )

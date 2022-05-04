@@ -12,6 +12,8 @@ import Form from 'react-bootstrap/Form'
 import FormControl from 'react-bootstrap/FormControl'
 import Pagination from 'react-bootstrap/Pagination'
 
+import Spinner from '../../components/utilities/Spinner'
+
 
 const ArtIndex = () => {
   // variables

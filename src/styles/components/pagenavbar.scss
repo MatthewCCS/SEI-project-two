@@ -1,6 +1,16 @@
 header {
   a.nav-link {
     color: rgba(0, 0, 0, 0.8);
+    font-weight: 500;
+    // border-bottom: 1px solid rgba(255,255,255, 0.2);
+    margin-left: 10px;
+    // background-color: rgba(255, 255, 255, 0.9);
+    padding: 5px 15px;
+    // letter-spacing: 0.5px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  a.nav-link:hover {
+    color: rgba(183,1,52, 0.8);
   }
   nav {
     background-color: rgba(0, 0, 0, 0.3);
