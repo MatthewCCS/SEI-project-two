@@ -55,7 +55,7 @@ Brief: Build a React app that consumes a public api
 ![!](https://img.shields.io/static/v1?style=plastic&logo=insomnia&logoColor=443ee&labelColor=&label=&message=Insomnia&color=333333) 
 
 
-## Getting Started
+## Usage
 
 ### Art-iChicago 
 
@@ -65,7 +65,7 @@ Art-ichicago is an app where the user can view various exhibits from the Art Ins
 
 - On Landing page, click collections to view exhibit collections
 - On Collections page, click on an exhibit item to navigate to that item
- - Individual pages contain more details of the piece
+  - Individual pages contain more details of the piece
 - Items on the page can be searched and filtered on side menu
 
 ## Comments/ Bugs
@@ -158,15 +158,19 @@ useEffect(() => {
    }
  }, [filters, artList])
 ```
+
+![collections](./Screenshots/collections.png)
+
 ##### Detailed exhibit page  
 
-Template for the single exhibits page features various additional details. At one point we considered being able to navigate to other exhibits with related tags but didn't implement the feature due to time.
+Template for the single exhibits page features various additional details. At one point we considered being able to navigate to other exhibits with related tags but didn't implement the feature due to time.  
+
 ![details page](./Screenshots/detailed_view.png)  
 
 ##### Problem with images  
 
-We seem to have some kind of error where the image URL from the endpoint is not displaying. We haven't changed the code but images are breaking for some reason.
-**Update*
+We seem to have some kind of error where the image URL from the endpoint is not displaying. We haven't changed the code but images are breaking for some reason.  
+**Update*  
 It turns out it wasn't our code. The API is being updated with new exhibit items and the new items didn't have the images ready. A little less stress now knowing we didn't break anything.  
 
 #### Day 2 - Styling + additional features  
