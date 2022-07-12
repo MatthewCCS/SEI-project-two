@@ -89,12 +89,7 @@ It was great to have a teammate to bounce ideas off and improve by coding togeth
 - Fixing the search and filter function
 - Being able utilise a third party API in our project 
 
-### Dev Journal  
-<details>
-
-<summary>Click</summary>  
-
-
+## Dev Journal  
 
 #### Day 1 - Planning and initial coding
 
@@ -181,8 +176,6 @@ After discovering new items are being added to the API database we needed a way 
 
 An unfortunate issue that stemmed from discovering the dynamic nature of the API means our initial coding and endpoint usage only allows us to search and filter items on the current page. Perhaps in the future we can add a more complete search and filter feature that covers all items available.
 
-
-</details>
 
 ## Potential future updates
 
