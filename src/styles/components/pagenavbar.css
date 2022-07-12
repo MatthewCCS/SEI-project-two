@@ -1,0 +1,16 @@
+header a.nav-link {
+  color: rgba(0, 0, 0, 0.8);
+  font-weight: 500;
+  margin-left: 10px;
+  padding: 5px 15px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header a.nav-link:hover {
+  color: rgba(183, 1, 52, 0.8);
+}
+
+header nav {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+/*# sourceMappingURL=pagenavbar.css.map */

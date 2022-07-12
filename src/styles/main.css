@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,400;0,500;0,700;0,900;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;700;900&display=swap");
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: #b70134;
+}
+
+a:active {
+  color: black;
+}
+
+body {
+  font-family: 'Archivo', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: 'Archivo', sans-serif;
+}
+
+.art a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.9);
+}
+
+p.card-text,
+div.card-title.h5 {
+  margin: -5px 0px;
+}
+
+div.card-title.h5 {
+  font-size: 0.9em;
+}
+
+p.card-text {
+  font-size: 0.8em;
+}
+
+.pagination {
+  opacity: 0.75;
+  -webkit-box-shadow: 1px 2px 5px 0.1px rgba(0, 0, 0, 0.2);
+          box-shadow: 1px 2px 5px 0.1px rgba(0, 0, 0, 0.2);
+  position: fixed;
+  bottom: 20px;
+  left: 50px;
+}
+
+.pagination .page-item.active .page-link {
+  z-index: 3;
+  color: #fff;
+  background-color: #b70134;
+  border-color: #b70134;
+}
+
+.page-link {
+  color: #b70134;
+}
+
+header a.nav-link {
+  color: rgba(0, 0, 0, 0.8);
+  font-weight: 500;
+  margin-left: 10px;
+  padding: 5px 15px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header a.nav-link:hover {
+  color: rgba(183, 1, 52, 0.8);
+}
+
+header nav {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.title-span {
+  padding: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  margin-right: 10px;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.6);
+  font-family: 'Chivo', sans-serif;
+}
+
+.desc {
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.desc-bio {
+  margin: 20px 0px 0px 30px;
+  border: 1px dotted rgba(0, 0, 0, 0.1);
+  padding: 5px;
+}
+
+hr {
+  border: 0.5px dotted rgba(0, 0, 0, 0.1);
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.hero {
+  width: 70%;
+  margin: 100px auto;
+  -webkit-box-shadow: 3px 1px 7px 0px lightgray;
+          box-shadow: 3px 1px 7px 0px lightgray;
+  padding: 20px;
+}
+
+.hero h1 {
+  color: #b70134;
+}
+/*# sourceMappingURL=main.css.map */

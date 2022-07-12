@@ -51,6 +51,7 @@ const ArtIndex = () => {
         const { data } = await axios.get(`https://api.artic.edu/api/v1/artworks?page=${pageNumber}&limit=100`)
         setArtList(data.data)
         console.log(data.data)
+        console.log(typeof data.data)
       } catch (error) {
         console.log(error)
       }
@@ -90,7 +91,7 @@ const ArtIndex = () => {
       setFilteredArt(filtered)
       console.log('filtered art ->', filteredArt)
     }
-  }, [filters, artList])
+  }, [filters, artList, filteredArt])
 
   // populate dropdowns
   useEffect(() => {

@@ -1,0 +1,38 @@
+.art a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.9);
+}
+
+p.card-text,
+div.card-title.h5 {
+  margin: -5px 0px;
+}
+
+div.card-title.h5 {
+  font-size: 0.9em;
+}
+
+p.card-text {
+  font-size: 0.8em;
+}
+
+.pagination {
+  opacity: 0.75;
+  -webkit-box-shadow: 1px 2px 5px 0.1px rgba(0, 0, 0, 0.2);
+          box-shadow: 1px 2px 5px 0.1px rgba(0, 0, 0, 0.2);
+  position: fixed;
+  bottom: 20px;
+  left: 50px;
+}
+
+.pagination .page-item.active .page-link {
+  z-index: 3;
+  color: #fff;
+  background-color: #b70134;
+  border-color: #b70134;
+}
+
+.page-link {
+  color: #b70134;
+}
+/*# sourceMappingURL=artindex.css.map */

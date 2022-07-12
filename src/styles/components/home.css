@@ -1,0 +1,12 @@
+.hero {
+  width: 70%;
+  margin: 100px auto;
+  -webkit-box-shadow: 3px 1px 7px 0px lightgray;
+          box-shadow: 3px 1px 7px 0px lightgray;
+  padding: 20px;
+}
+
+.hero h1 {
+  color: #b70134;
+}
+/*# sourceMappingURL=home.css.map */
